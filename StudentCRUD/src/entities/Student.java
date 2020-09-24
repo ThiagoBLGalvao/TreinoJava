@@ -1,21 +1,24 @@
 package entities;
 
 public class Student {
-    private Long id;
+    private int id;
     private String name;
-    private Integer age;
+    private int age;
 
-    public Student(Long id, String name, Integer age) {
+    public Student(int id, String name, int age) {
         this.id = id;
         this.name = name;
         this.age = age;
     }
 
-    public Long getId() {
+    public Student() {
+    }
+
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -27,11 +30,11 @@ public class Student {
         this.name = name;
     }
 
-    public Integer getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(Integer age) {
+    public void setAge(int age) {
         this.age = age;
     }
 }
