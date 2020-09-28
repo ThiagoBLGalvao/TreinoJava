@@ -1,0 +1,10 @@
+insert into tb_student(name,age) values ('Jonas Gonçalves',21);
+insert into tb_student(name,age) values ('Leonardo Little',23);
+insert into tb_student(name,age) values ('Gustavo Mota',20);
+insert into tb_student(name,age) values ('Matheus Otaku',19);
+insert into tb_student(name,age) values ('Fernando Ferneco',29);
+insert into tb_student(name,age) values ('Rapha Galvão',17);
+insert into tb_student(name,age) values ('Tiago',35);
+insert into tb_student(name,age) values ('Luiz Artist',30);
+insert into tb_student(name,age) values ('Jan Mulders',42);
+insert into tb_student(name,age) values ('Brian Dyer',45);
